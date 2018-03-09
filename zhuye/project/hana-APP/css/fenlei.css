@@ -1,0 +1,19 @@
+.fenlei{
+	display: block;
+	padding: .235rem .24rem;
+	background-color: #fff;
+	margin: .2rem 0;
+}
+.fenlei h1{
+	font-size: .4rem;
+	color: #333;
+	line-height: .4rem;
+}
+.img{
+	width: 7.02rem;
+	height: 2.8rem;
+	margin: .235rem auto 0;
+}
+main{
+	top: .88rem;
+}

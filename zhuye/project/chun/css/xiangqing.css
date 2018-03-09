@@ -1,0 +1,609 @@
+
+@import url('base.css');
+/* 头部开始 */
+	header{
+		width: 100%;
+		height: 1.32rem;
+		background: #fff;
+		padding: 0 0.4rem;
+		box-sizing: border-box;
+		border-bottom: 0.01rem solid #EFEFEF;
+		position: fixed;
+		top: 0;
+		z-index: 999;
+		display: flex;
+		justify-content: space-between;
+	}
+	header .iconfont{
+		display: block;
+		width: 0.45rem;
+		height: 1.32rem;
+		font-size: 0.56rem;
+		color: #30B17C;
+		line-height: 1.32rem;
+	}
+	header .iconfont:last-child{
+		font-size: 0.52rem;
+	}
+	header span{
+		font-size: 0.34rem;
+		color: #000;
+		line-height: 1.32rem;
+	}
+/* 头部结束 */
+/* banner开始 */
+	.banner{
+		width: 100%;
+		height: 5.9rem;
+		background: yellowgreen;
+		margin-top: 1.32rem;
+		position: relative;
+	}
+	.banner li{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+	}
+	.banner li a{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.banner li a img{
+		width: 100%;
+		height: 100%;
+	}
+/* banner结束 */
+/* banner介绍开始 */
+	.jieshao{
+		width: 100%;
+		height: 2.80rem;
+		padding: 0.4rem;
+		background: #fff;
+		box-sizing: border-box;
+		border-top: 0.01rem solid #F4F4F4;
+		border-bottom: 0.01rem solid #F4F4F4;
+	}
+	.jieshao p:nth-child(1){
+		font-size: 0.34rem;
+		color: #000;
+		margin-bottom: 0.28rem;
+	}
+	.jieshao p:nth-child(2){
+		font-size: 0.46rem;
+		color: #FF6563;
+		float: left;
+		margin-right: 0.08rem;
+	}
+	.jieshao p:nth-child(2) span{
+		font-size: 0.26rem;
+		color: #FF6563;
+	}
+	.jieshao .iconfont{
+		font-size: 0.4rem;
+		color: #ADC2ED;
+		float: left;
+		line-height: 0.8rem;
+	}
+	.jieshao .fen{
+		width: 2.3rem;
+		height: 0.5rem;
+		border: 0.04rem solid #FFA16E; 
+		text-align: center;
+		line-height: 0.5rem;
+		color: #FFA16E;
+		font-size: 0.28rem;
+		float: left;
+		border-radius: 0.05rem;
+		margin-left: 0.15rem;
+	}
+/* banner介绍结束 */
+/* 推荐开始 */
+	.tuijian{
+		width: 100%;
+		height: 2rem;
+		background: #fff;
+		font-size: 0.28rem;
+		color: #636563;
+		padding: 0.4rem;
+		box-sizing: border-box;
+		border-top: 0.01rem solid #F4F4F4;
+		border-bottom: 0.01rem solid #F4F4F4;
+		margin-bottom: 0.3rem;
+	}
+	.tuijian .iconfont{
+		font-size: 0.4rem;
+		color: #636563;
+		float: right;
+		margin-right: 0.3rem;
+		margin-top: 0.2rem;
+	}
+/* 推荐结束 */
+/* 出发日期开始 */
+	.date{
+		width: 100%;
+		height: 1.25rem;
+		background: #fff;
+		padding: 0 0.4rem;
+		border-top: 0.01rem solid #F4F4F4;
+		border-bottom: 0.01rem solid #F4F4F4;
+		box-sizing: border-box;
+		margin-bottom: 0.3rem; 
+	}
+	.date .iconfont{
+		font-size: 0.4rem;
+		color: #00BE8C;
+		float: left;
+		line-height: 1.25rem;
+		margin-right: 0.2rem;
+	}
+	.date span{
+		font-size: 0.4rem;
+		color: #000;
+		float: left;
+		line-height: 1.25rem;
+	}
+	.date p{
+		font-size: 0.2rem;
+		color: #00BE8C;
+		float: right;
+		line-height: 1.25rem;
+	}
+	.date .icon1{
+		font-size: 0.44rem;
+		color: #BDBABD;
+		line-height: 1.25rem;
+		float: right;
+		margin-left: 0.2rem;	
+	}
+/* 出发日期结束 */
+/* 交通信息开始 */
+	.traffic{
+		width: 100%;
+		height: 5.9rem;
+		background: #fff;
+		padding: 0.4rem;
+		border-top: 0.01rem solid #F4F4F4;
+		border-bottom: 0.01rem solid #F4F4F4;
+		box-sizing: border-box;
+		margin-bottom: 0.3rem; 
+	}
+	.traffic .t_top{
+		width: 100%;
+		height: 0.8rem;
+		line-height: 0rem;
+	}
+	.traffic .t_top .iconfont{
+		font-size: 0.55rem;
+		color: #00BE8C;
+	}
+	.traffic .t_top span{
+		font-size: 0.18rem;
+		color: #000;
+	}
+	.traffic .tc_content{
+		width: 100%;
+		height: 4.4rem;
+	}
+	.traffic .tc_content li{
+		width: 100%;
+		height: 2.1rem;
+	}
+	.traffic .tc_content li:nth-child(1){
+		margin-bottom: 0.2rem;
+	}
+	.traffic .tc_content li p{
+		width: 100%;
+		height: 0.7rem;
+		margin-bottom: 0.1rem;
+	}
+	.traffic .tc_content li p span{
+		font-size: 0.14rem;
+		color: #666666;
+	}
+	.traffic .tc_content li p span:first-child{
+		float: left;
+	}
+	.traffic .tc_content li p span:last-child{
+		float: right;
+	}
+	.traffic .tc_content li .bottom{
+		width: 100%;
+		height: 1.35rem;
+		display: flex;
+		justify-content: space-between;
+	}
+	.traffic .tc_content li .bottom .left{
+		width: 3.2rem;
+		height: 1.35rem;
+		font-size: 0.18rem;
+		color: #000;
+	}
+	.traffic .tc_content li .bottom .left span{
+		color: #666;
+	}
+	.traffic .tc_content li .bottom .cen{
+		width: 3.25rem;
+		height: 1.35rem;
+		position: relative;
+		text-align: center;
+	}
+	.traffic .tc_content li .bottom .cen .yuan{
+		width: 0.21rem;
+		height: 0.21rem;
+		border: 0.02rem solid #DEDFDE;
+		border-radius: 50%;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		margin-top: -0.12rem; 
+	}
+	.traffic .tc_content li .bottom .cen .heng{
+		width: 2.75rem;
+		height: 0.02rem;
+		background: #DEDFDE;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.traffic .tc_content li .bottom .cen .yuan1{
+		width: 0.21rem;
+		height: 0.21rem;
+		border: 0.02rem solid #DEDFDE;
+		border-radius: 50%;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		margin-top: -0.12rem; 
+	}
+	.traffic .tc_content li .bottom .cen span{
+		display: block;
+		font-size: 0.14rem;
+		color: #B3B0B3;
+	}
+	.traffic .tc_content li .bottom .right{
+		width: 3.2rem;
+		height: 1.35rem;
+		font-size: 0.18rem;
+		color: #000;
+		text-align: right;
+	}
+	.traffic .tc_content li .bottom .right span{
+		color: #666666;
+	}
+/* 交通信息结束 */
+/* 费用开始 */
+	.money{
+		width: 100%;
+		height: 5.65rem;
+		background: #fff;
+		padding: 0.4rem;
+		border-top: 0.01rem solid #F4F4F4;
+		border-bottom: 0.01rem solid #F4F4F4;
+		box-sizing: border-box;
+		margin-bottom: 0.3rem; 
+		position: relative;
+	}
+	.money .m_top{
+		width: 100%;
+		height: 1rem;
+		display: flex;
+		line-height: 1rem;
+	}
+	.money .m_top .iconfont{
+		font-size: 0.64rem;
+		color: #1DC597;
+		margin-right: 0.2rem;
+	}
+	.money .m_top span{
+		font-size: 0.2rem;
+		color: #000;
+	}
+	.money p{
+		font-size: 0.16rem;
+		color: #000;
+		margin-bottom: 0.1rem;
+	}
+	.money .jie{
+		display: block;
+		font-size: 0.16rem;
+		color: #717371;
+	}
+	.money .icon_box{
+		width: 100%;
+		height: 0.5rem;
+		position: absolute;
+		left: 0;
+		bottom: 0.2rem;
+		text-align: center;
+		line-height: 0.1rem;
+	}
+	.money .icon_box .icon1{
+		font-size: 0.3rem;
+		color: #717371;
+	}
+/* 费用结束 */
+/* 预订须知开始 */
+	.book{
+		width: 100%;
+		height: 5.65rem;
+		background: #fff;
+		padding: 0.4rem;
+		border-top: 0.01rem solid #F4F4F4;
+		border-bottom: 0.01rem solid #F4F4F4;
+		box-sizing: border-box;
+		margin-bottom: 0.3rem; 
+		position: relative;
+		overflow: hidden;
+	}
+	.book .m_top{
+		width: 100%;
+		height: 1rem;
+		display: flex;
+		line-height: 1rem;
+	}
+	.book .m_top .iconfont{
+		font-size: 0.64rem;
+		color: #1DC597;
+		margin-right: 0.2rem;
+	}
+	.book .m_top span{
+		font-size: 0.2rem;
+		color: #000;
+	}
+	.book p{
+		font-size: 0.16rem;
+		color: #000;
+		margin-bottom: 0.1rem;
+	}
+	.book .jie{
+		display: block;
+		font-size: 0.16rem;
+		color: #717371;
+		margin-bottom: 0.2rem;
+	}
+	.book .zhong{
+		display: block;
+		width: 100%;
+		height: 1rem;
+		font-size: 0.16rem;
+		color: #717371;
+		overflow: hidden;
+	}
+	.book .icon_box{
+		width: 100%;
+		height: 0.5rem;
+		position: absolute;
+		left: 0;
+		bottom: 0.1rem;
+		text-align: center;
+		line-height: 0.1rem;
+	}
+	.book .icon_box .icon1{
+		font-size: 0.3rem;
+		color: #717371;
+	} 
+/* 预订须知结束 */
+/* 供应开始 */
+	.supply{
+		width: 100%;
+		height: 1.25rem;
+		background: #fff;
+		padding: 0 0.4rem;
+		border-top: 0.01rem solid #F4F4F4;
+		border-bottom: 0.01rem solid #F4F4F4;
+		box-sizing: border-box;
+		margin-bottom: 0.3rem; 
+	}
+	.supply .iconfont{
+		font-size: 0.4rem;
+		color: #00BE8C;
+		float: left;
+		line-height: 1.25rem;
+		margin-right: 0.2rem;
+	}
+	.supply span{
+		font-size: 0.4rem;
+		color: #000;
+		float: left;
+		line-height: 1.25rem;
+	}
+	.supply .icon1{
+		font-size: 0.44rem;
+		color: #BDBABD;
+		line-height: 1.25rem;
+		float: right;
+		margin-left: 0.2rem;	
+	}
+/* 供应结束 */
+/* 推荐开始 */
+	.tui{
+		width: 100%;		
+		height: 1.1rem;
+		background: #F7F7F7;
+		font-size: 0.18rem;
+		color: #AAAAAA;
+		line-height: 1.1rem;
+		text-align: center;
+	}
+	.tui_box{
+		width: 100%;
+		height: 11.85rem;
+		box-sizing: border-box;
+		border-top: 0.01rem solid #F4F4F4;
+		border-bottom: 0.01rem solid #F4F4F4;
+		padding: 0.4rem;
+		background: #fff;
+		margin-bottom: 0.3rem;
+	}
+	.tui_box ul{
+		width: 100%;
+		height: auto;
+	}
+	.tui_box ul li{
+		width: 4.80rem;
+		height: 5.35rem;
+		float: left;
+		margin-bottom: 0.25rem;
+	}
+	.tui_box ul li:nth-child(2){
+		float: right;
+	}
+	.tui_box ul li a{
+		width: 100%;	
+		height: 100%;	
+	}
+	.tui_box ul li a .i_box{
+		width: 100%;	
+		height: 3.47rem;	
+		position: relative;
+	}
+	.tui_box ul li a .i_box img{
+		width: 100%;
+		height: 100%;	
+	}
+	.tui_box ul li a .i_box .type{
+		display: block;
+	    width: 1.5rem;
+	    height: 0.6rem;
+	    border-radius: 0.09rem 0 .43rem 0;
+	    background: #5ACFA5;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    font-size: 0.14rem;
+	    color: #fff;
+	    line-height: 0.6rem; 
+	    text-align: center;
+	}
+	.tui_box ul li a .t_bottom{
+		width: 100%;
+		height: 1.2rem;
+		overflow: hidden;
+	}
+	.tui_box ul li a .t_bottom h2{
+		font-size: 0.14rem;
+		color: #000;
+	}
+	.tui_box ul li a p{
+		width: 100%;
+		height: 0.65rem;
+		font-size: 0.18rem;
+		color: #FF6563;
+		line-height: 0.65rem;
+	}
+	.tui_box ul li a p span:nth-child(1){
+		font-size: 0.1rem;
+	}
+	.tui_box ul li a p span:nth-child(2){
+		font-size: 0.12rem;
+		color: #A19FA1;
+	}
+/* 推荐结束 */
+/* 定制行程开始 */
+	.trip{
+		width: 100%;
+		height: 1.47rem;
+		border-bottom: 0.01rem solid #f4f4f4;
+		border-top: 0.01rem solid #f4f4f4;
+		box-sizing: border-box;
+		background: #fff;
+		margin-bottom: 1.7rem;
+	}
+	.trip .le{
+		width: 1.45rem;
+		height: 1.45rem;
+		float: left;
+		text-align: center;
+	}
+	.trip .le .iconfont{
+		color: #C69E63;
+		line-height: 1.45rem;
+	}
+	.trip .cen{
+		width: 5.9rem;
+		height: 1.45rem;
+		float: left;
+		font-size: 0.24rem;
+		color: #C69E63;
+		line-height: 0.7rem;
+		margin-left: 0.2rem;
+	}
+	.trip .ri{
+		width: 3.13rem;
+		height: 1.45rem;
+		float: right;
+	}
+	.trip .ri .kuan{
+		display: block;
+		width: 2.38rem;
+		height: 0.9rem;
+		background: #fff;
+		border: 0.04rem solid #C69E63;
+		box-sizing: border-box;
+		margin: 0.28rem auto;
+		border-radius: 0.1rem;
+		font-size: 0.2rem;
+		color: #C69E63;
+		line-height: 0.9rem;
+		text-align: center;
+	}
+/* 定制行程结束 */
+/* Tab栏开始 */
+	.tab{
+		width: 100%;
+		height: 1.25rem;
+		background: #fff;
+		border-top: 0.01rem solid #F4F4F4;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: flex;
+	}
+	.tab .tab_left{
+		width: 2.16rem;
+		height: 1.25rem;
+		text-align: center;
+	}
+	.tab .tab_left .iconfont{
+		width: 2.16rem;
+		height: 0.6rem;
+		font-size: 0.34rem;
+		color: #BDBABD;
+		line-height: 0.6rem;
+	}
+	.tab_left p{
+		font-size: 0.18rem;
+		color: #BDBABD;
+	}
+	.tab .tab_center{
+		width: 2.16rem;
+		height: 1.25rem;
+		text-align: center;
+	}
+	.tab .tab_center .iconfont{
+		width: 2.16rem;
+		height: 0.6rem;
+		font-size: 0.34rem;
+		color: #BDBABD;
+		line-height: 0.6rem;
+	}
+	.tab .tab_center p{
+		font-size: 0.18rem;
+		color: #BDBABD;
+	}
+	.tab_right{
+		width: 6.48rem;
+		height: 1.25rem;
+		background: #FF8844;
+		float: right;
+		text-align: center;
+		line-height: 1.25rem;
+		color: #fff;
+		font-size: 0.18rem;
+	}
+/* Tab栏结束 

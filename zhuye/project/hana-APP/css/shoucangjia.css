@@ -1,0 +1,64 @@
+main{
+	top: 1.88rem;
+}
+.top{
+	width: 100%;
+	height: 1rem;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	top: .88rem;
+}
+.top .iconfont{
+	font-size: .6rem;
+	display: block;
+	line-height: 1.1rem;
+	float: left;
+	margin-left: .24rem;
+	color: #333;
+	margin-right: .95rem;
+
+}
+.top span{
+	display: block;
+	font-size: .4rem;
+	float: left;
+	line-height: .97rem;
+	float: left;
+	padding: 0 .6rem;
+	height: .97rem
+}
+.top .selected{
+	border-bottom: .03rem solid #fd7d98;
+}
+.inner{
+	width: 100%;
+	height: 3rem;
+	background-color: #fa4b66;
+	margin: .24rem 0;
+}
+.shangpin-s{
+	 width: 3.27rem;
+	 float: left;
+	 height: 4rem;
+	 background-color:#fff;
+	 margin: .24rem;
+}
+.shangpin-s>a{
+	display: block;
+	overflow: hidden;
+}
+.img-s{
+	width: 2.8rem;
+	height: 2.8rem;
+	margin: .235rem auto;
+}
+.name{
+	float: left;
+	margin:0  .235rem;
+}
+.price{
+	color: #fd7d98;
+	float: right;
+	margin: 0 .235rem;
+}

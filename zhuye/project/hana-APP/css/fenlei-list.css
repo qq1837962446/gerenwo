@@ -1,0 +1,48 @@
+main{
+	top: .88rem;
+}
+.back{
+	/* padding:.24rem; */
+	display: block;
+	float: left;
+	color: #333;
+	padding-right: .1rem;
+}
+.back i{
+	font-size: .5rem;
+	display: block;
+	line-height: .5rem;
+}
+main h1{
+	font-size: .4rem;
+	color: #333;
+	line-height: .5rem;
+	margin-top: .2rem;
+	padding-left: .24rem;
+}
+.shangpin-s{
+	display: block;
+ 	width: 3.27rem;
+ 	float: left;
+ 	height: 4rem;
+ 	background-color:#fff;
+ 	margin: .24rem;
+}
+.shangpin-s>a{
+	display: block;
+	overflow: hidden;
+}
+.img-s{
+	width: 2.8rem;
+	height: 2.8rem;
+	margin: .235rem auto;
+}
+.name{
+	float: left;
+	margin:0  .235rem;
+}
+.price{
+	color: #fd7d98;
+	float: right;
+	margin: 0 .235rem;
+}

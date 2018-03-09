@@ -1,0 +1,372 @@
+/*
+* @Author: zhang
+* @Date:   2018-02-15 22:40:02
+* @Last Modified by:   zhang
+* @Last Modified time: 2018-02-23 22:35:26
+*/
+@import url('base.css');
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.89rem;
+	background: #fff;
+	padding: 0 15px;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+}
+header .iconfont{
+	display: block;
+	width: 0.45rem;
+	height: 0.89rem;
+	font-size: 0.45rem;
+	color: #30B17C;
+	line-height: 0.89rem;
+}
+header span{
+	font-size: 0.26rem;
+	color: #000;
+	line-height: 0.89rem;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.5rem;
+	background: yellowgreen;
+	margin-top: 0.89rem;
+	position: relative;
+}
+.banner a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+.banner a img{
+	width: 100%;
+	height: 100%;
+}
+.banner .button{
+	width: 0.4rem;
+	height: 0.12rem;
+	position: absolute;
+	bottom: 0.18rem;
+	right: 0.32rem;
+	display: flex;
+	justify-content: space-between;
+}
+.banner .button .btn{
+	display: block;
+	width: 0.12rem;
+	height: 0.12rem;
+	background: rgba(250, 250, 250, .5);
+	border-radius: 0.12rem;
+	/* float: left; */
+}
+.banner .button .btn.active{
+	width: 0.2rem;
+	height: 0.12rem;
+	background: #32C18E;
+}
+/* banner结束 */
+/* 搜索开始 */
+.sou_box{
+	width: 100%;
+	height: 1.12rem;
+	background: #fff;
+}
+.sou_box .s_left{
+	width: 1.3rem;
+	height: 1.12rem;
+	float: left;
+	margin-right: 0.32rem;
+}
+.sou_box .s_left span{
+	display: block;
+	font-size: 0.12rem;
+	color: #757575;
+	text-align: center;
+	line-height: 1.12rem;
+	float: left;
+	margin-left: 0.2rem;
+}
+.sou_box .s_left .iconfont{
+	font-size: 0.2rem;
+	color: #00BE88;
+	float: right;
+	line-height: 1.16rem;
+	font-weight: bold;
+}
+.sou_box input{
+	width: 5.45rem;
+	height: 0.56rem;
+	background: #F2F3F7;
+	border: none;
+	border-radius: 0.5rem;
+	font-size: 0.1rem;
+	color: #CFD0D0;
+	line-height: 0.56rem;
+	padding-left: 0.3rem;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 0.2rem;
+}
+/* 搜索结束 */
+/* 当期狂欢开始 */
+.happy{
+	width: 100%;
+	height: 2.1rem;
+	background: #fff;
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+	display: flex;
+	margin-bottom: 0.18rem;
+}
+.happy .img_box{
+	width: 2.2rem;
+	height: 1.72rem;
+}
+.happy .img_box img{
+	width: 100%;
+	height: 100%;
+}
+.happy .word_box{
+	width: 2.7rem;
+	height: 1.72rem;
+	padding-left: 0.1rem;
+	background: #F6F7F8;
+	box-sizing: border-box;
+}
+.happy .word_box h2{
+	width: 2.7rem;
+	height: 0.76rem;
+	font-size: 0.1rem;
+	color: #000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.happy .word_box p{
+	width: 2.7rem;
+	height: 0.4rem;
+	font-size: 0.1rem;
+	color: #999999;
+	line-height: 0.4rem;
+}
+.happy .jiage{
+	font-size: 0.18rem;
+	color: #FF6E6E;
+}
+.happy .h_right{
+	width: 1.7rem;
+	height: 1.72rem;
+	background: #FFF2E6;
+	margin-left: 0.18rem;
+	text-align: center;
+}
+.happy .h_right .h_top{
+	width: 100%;
+	height: 0.48rem;
+	font-size: 0.14rem;
+	color: #000;
+	line-height: 0.48rem;
+	font-family: "隶书";
+}
+.happy .h_right .h_center{
+	width: 100%;
+	height: 0.3rem;
+	font-size: 0.14rem;
+	color: #000;
+	line-height: 0.48rem;
+	font-family: "隶书";
+}
+.happy .h_right .img_b{
+	width: 100%;
+	height: 0.93rem;
+	position: relative;
+}
+.happy .h_right .img_b img{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+/* 当期狂欢结束 */
+/* 热门目的地开始 */
+.hot{
+	width: 100%;
+	height: 2.18rem;
+	background: #fff;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+.hot_top{
+	width: 100%;
+	height: 0.72rem;
+}
+.hot_top h2{
+	font-size: 0.1rem;
+	color: #000;
+	line-height: 0.72rem;
+	float: left;
+	margin-right: 0.2rem;
+}
+.hot_top span{
+	font-size: 0.12rem;
+	color: #999;
+	line-height: 0.72rem;
+	float: left;
+}
+.hot_bottom{
+	width: 9.28rem;
+	height: 1.46rem;
+}
+.hot_bottom li{
+	width: 2.08rem;
+	height: 1.26rem;
+	margin-right: 0.2rem;
+	float: left;
+}
+.hot_bottom li a{
+	width: 100%;
+	height: 100%;
+}
+.hot_bottom li a img{
+	width: 100%;
+}
+/* 热门目的地结束 */
+/* 自由行开始 */
+.free{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.f_title{
+	width: 100%;
+	height: 0.76rem;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #F5F5F5;
+	display: flex;
+	justify-content: space-around;
+}
+.f_title span{
+	display: block;
+	width: 1.45rem;
+	height: 0.76rem;
+	box-sizing: border-box;
+	font-size: 0.14rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.76rem;
+}
+.f_title span.active{
+	color: #00BE88;
+	border-bottom: 0.04rem solid #00BE88;
+}
+.free_bottom{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0 0.2rem;
+}
+.free_center{
+	width: 100%;
+	height: auto;
+}
+.free_center li{
+	width: 100%;
+	height: 2.3rem;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #F5F5F5;
+	padding-top: 0.2rem;
+	display: flex;
+}
+.free_center li .img_box{
+	width: 2.2rem;
+	height: 1.92rem;
+	position: relative;
+}
+.free_center li .img_box img{
+	width: 100%;
+	height: 100%;
+}
+.free_center li .img_box .type{
+	display: block;
+    width: 1.2rem;
+    height: 0.45rem;
+    border-radius: 0.09rem 0 .43rem 0;
+    background-color: #314e56;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0.14rem;
+    color: #fff;
+    line-height: 0.45rem; 
+    text-align: center;
+}
+.free_center li .img_box .bottom{
+	width: 100%;
+	height: 0.38rem;
+	background: #7B8593;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	font-size: 0.12rem;
+	color: #fff;
+	line-height: 0.38rem;
+}
+.free_center li .word_box{
+	width: 4.6rem;
+	height: 1.92rem;
+	padding-left: 0.3rem;
+	box-sizing: border-box;
+}
+.free_center li .word_box h2{
+	width: 100%;
+	height: 0.75rem;
+	overflow: hidden;
+	font-size: 0.14rem;
+	color: #000;
+	text-overflow: ellipsis; 
+}
+.free_center li .word_box .go{
+	font-size: 0.12rem;
+	color: #00BE88;
+	width: 1.6rem;
+	height: 0.3rem;
+	box-sizing: border-box;
+	border: 0.02rem solid #00BE88;
+	text-align: center;
+	line-height: 0.28rem;
+	border-radius: 0.05rem;
+	margin-top: 0.1rem;
+}
+.free_center li .word_box .ban{
+	font-size: 0.1rem;
+	color: #999;
+}
+.free_center li .word_box p{
+	font-size: 0.16rem;
+	color: #FF6666;
+}
+.free_center li .word_box p span{
+	font-size: 0.12rem;
+}
+/* 自由行结束 */
+.foot{
+	width: 100%;
+	height: 2rem;
+	background: #F6F7FB;
+	font-size: 0.16rem;
+	color: #D2D3D4;
+	text-align: center;
+	line-height: 2rem;
+	font-family: "隶书";
+}

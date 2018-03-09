@@ -1,0 +1,123 @@
+/* 导航开始 */
+nav{
+	height: .8rem;
+	width: 100%;
+	background-color: rgba(253, 125, 152, 0.6);
+	position: fixed;
+	top: .88rem;
+	left: 0;
+	z-index: 10;
+	color: #333;
+}
+nav ul li{
+	color: #333;
+	margin: 0 .24rem;
+	padding: .1rem .09rem 0;
+	font-size: .3rem;
+	line-height: .6rem;
+	display: block;
+	float: left;
+}
+nav .selected{
+	border-bottom: .05rem solid #fd7d98;
+}
+/* 导航结束 */
+/* 主体开始 */
+.banner{
+	width: 100%;
+	height: 3.5rem;
+	position: relative;
+}
+.banner .dots{
+	position: absolute;
+	left: 0;
+	bottom: .2rem;
+	height: .2rem;
+	width: 100%;
+	display: flex;
+	padding: 0 3rem;
+	justify-content: space-between;
+}
+.banner .dots span{
+	display: block;
+	width: .2rem;
+	height: .2rem;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.banner .dots .selected{
+	background-color: #999;
+}
+.shangpin-s{
+	 width: 3.27rem;
+	 float: left;
+	 height: 4rem;
+	 background-color:#fff;
+	 margin: .24rem;
+}
+.shangpin-s>a{
+	display: block;
+	overflow: hidden;
+}
+.shangpin-s>a:active{
+	
+}
+.img-s{
+	width: 2.8rem;
+	height: 2.8rem;
+	margin: .235rem auto;
+}
+.name{
+	float: left;
+	margin:0  .235rem;
+}
+.price{
+	color: #fd7d98;
+	float: right;
+	margin: 0 .235rem;
+}
+.shangpin-l{
+	width: 7.02rem;
+	float: left;
+	height: 4rem;
+	margin: .24rem;
+	background-color: #fff;
+}
+.img-l{
+	width: 6.55rem;
+	height: 2.8rem;
+	margin: .235rem auto;
+}
+.art{
+	position: relative;
+	width: 7.02rem;
+	float: left;
+	height: 4rem;
+	margin: .24rem;
+	background-image: url('../img/kangnaixin5.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.art .cover{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0,0, 0.3)
+}
+.art h1{
+	padding: .1rem .24rem;
+	font-size: .4rem;
+	color: #333;
+	background-color: rgba(255, 255,255, 0.6)
+}
+.art p{
+	color: #fff;
+	padding: .1rem .24rem;
+	width: 100%;
+	line-height: 1.5;
+}
+/* 主体结束 */
+
+

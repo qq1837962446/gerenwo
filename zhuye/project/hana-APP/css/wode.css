@@ -1,0 +1,95 @@
+main{
+	top: .88rem;
+}
+.main-top{
+	width: 100%;
+	height: 5rem;
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: .24rem;
+	margin-bottom: .24rem;
+}
+.setting,.ring{
+	display: block;
+}
+.main-top .setting .iconfont{
+	font-size: .5rem;
+	float: left;
+	margin-left: .24rem;
+	color: #333;
+}
+.main-top .ring .iconfont{
+	font-size: .5rem;
+	float:right;
+	margin-right: .24rem;
+	color: #333;
+}
+.icon{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 1rem auto 0;
+}
+.name{
+	display: block;
+	margin: .5rem auto;
+	font-size: .4rem;
+	text-align: center;
+}
+.shoucang{
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: .24rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 .24rem;
+}
+.shoucang .inner{
+	display: block;
+	text-align: center;
+	padding: .3rem 0;
+	margin: 0 .5rem;
+	color: #333;
+}
+.shoucang .iconfont{
+	font-size: .6rem;
+	color: #333;
+	display: block;
+}
+.shoucang span{
+	font-size: .28rem;
+	display: block;
+}
+.dingdan{
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: .24rem;
+}
+.dingdan .inner{
+	color: #333;
+	display: block;
+	height: .88rem;
+	border-top: 1px solid #f0f0f0;
+}
+.dingdan h1{
+	font-size: .36rem;
+	line-height: .88rem;
+	padding-left: .24rem;
+	border-top: 1px solid #f0f0f0;
+}
+.dingdan span{
+	font-size: .32rem;
+	display: block;
+	line-height: .88rem;
+	float: left;
+	margin-left: .24rem;
+}
+.dingdan .iconfont{
+	display: block;
+	font-size: .3rem;
+	float: right;
+	line-height: .88rem;
+	margin-right: .24rem;
+}

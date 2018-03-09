@@ -1,0 +1,472 @@
+/*
+* @Author: zhang
+* @Date:   2018-02-23 19:14:52
+* @Last Modified by:   zhang
+* @Last Modified time: 2018-02-23 22:44:36
+*/
+@import url("base.css");
+/* banner开始 */
+	.banner{
+		width: 100%;
+		height: 4rem;
+		position: relative;
+	}
+	.banner li{
+		width: 100%;
+		height: 100%;
+		background: pink;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.banner li a{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.swiper-slide img{
+		width: 100%;
+		height: 100%;
+	}
+	
+/* banner结束 */
+/* 搜索开始 */
+	.sou{
+		width: 10.2rem;
+		height: 1.27rem;
+		background: #fff;
+		position: absolute;
+		bottom: -1.2rem;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 0.1rem;
+		box-shadow: 0 5px 8px rgba(0,0,0,.3);
+		z-index: 999;
+	}
+	.sou .s_left{
+		width: 1.3rem;
+		height: 0.6rem;
+		float: left;
+		margin-right: 0.4rem;
+		margin-top: 0.4rem;
+		padding-right: 0.4rem;
+		border-right: 0.02rem solid #757575;
+	}
+	.sou .s_left span{
+		display: block;
+		font-size: 0.34rem;
+		color: #757575;
+		text-align: center;
+		line-height: 0.6rem;
+		float: left;
+		margin-left: 0.2rem;
+	}
+	.sou .s_left .iconfont{
+		font-size: 0.3rem;
+		color: #9C9A9C;
+		float: right;
+		line-height: 0.7rem;
+		font-weight: bold;
+		margin-left: 0.1rem;
+	}
+	.sou input{
+		width: 7.35rem;
+		height: 1rem;
+		background: #fff;
+		border: none;
+		font-size: 0.34rem;
+		color: #CFD0D0;
+		line-height: 0.56rem;
+		padding: 0 0.4rem;
+		box-sizing: border-box;
+		float: left;
+		margin-top: 0.2rem;
+	}
+/* 搜索结束 */
+/* 列表开始 */
+	.list{
+		width: 100%;
+		height: 5.65rem;
+		background: #fff;
+		padding: 1.1rem  0 0 0.34rem;
+		box-sizing: border-box;
+		margin-bottom: 0.3rem;
+	}
+	.list li{
+		width: 1.75rem;
+		height: 2.27rem;
+		float: left;
+		margin-right: 0.3rem;
+		text-align: center;
+	}
+	.list li .top{
+		width: 1.15rem;
+		height: 1.16rem;
+		background: pink;
+		margin: 0.1rem auto;
+	}
+	.list li:nth-child(3) .top{
+		width: 1.75rem;
+		height: 1.45rem;
+		margin: 0;
+	}
+	.list li .top img{
+		width: 100%;
+		height: 100%;
+	}
+	.list li p{
+		font-size: 0.36rem;
+		color: #000;
+		line-height: 0.8rem;
+	}
+/* 列表结束 */
+/* 抢购开始 */
+	.go{
+		width: 100%;
+		height: 6.62rem;
+		background: #fff;
+		margin-bottom: 0.3rem;
+	}
+	.go .go_top{
+		width: 100%;
+		height: 3.14rem;
+		box-sizing: border-box;
+		padding: 0 0.3rem;
+		border-bottom: 0.02rem solid #B0ADB0;
+	}
+	.go .go_top .img_box{
+		width: 3.6rem;
+		height: 2.51rem;
+		border-radius: 0.1rem;
+		margin-top: 0.3rem;
+		margin-right: 0.35rem;
+		float: left;
+	}
+	.go .go_top .img_box img{
+		width: 100%;
+		height: 100%;
+	}
+	.go .go_top .word_box{
+		width: 100%;
+		height: 100%;
+		padding: 0.3rem 0 0 3.95rem;
+		box-sizing: border-box;
+		background: #fff;
+	}
+	.go .go_top .word_box .title{
+		height: 1.3rem;
+		font-size: 0.4rem;
+		color: #000;
+		line-height: 0.65rem;
+		overflow: hidden;
+		margin-bottom: 0.4rem;
+	}
+	.go .go_top .word_box p{
+		font-size: 0.46rem;
+		color: #FF6563;
+	}
+	.go .go_top .word_box p span{
+		font-size: 0.34rem;
+	}
+	.go .go_top .word_box p small{
+		font-size: 0.34rem;
+		color: #B0ADB0;
+		float: right;
+		margin-right: 0.45rem;
+		line-height: 0.55rem;
+	}
+	.go .go_bottom{
+		width: 100%;
+		height: 3.48rem;
+		padding: 0.3rem 0.3rem 0;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+	}
+	.go .go_bottom li{
+		width: 3.17rem;
+		height: 2.9rem;
+		background: #FFF3E7;
+		padding-top: 0.3rem;
+		box-sizing: border-box;
+		position: relative;
+	}
+	.go .go_bottom li:nth-child(2){
+		background: #FFEFEF;
+	}
+	.go .go_bottom li:nth-child(3){
+		background: #F7F3FF;
+	}
+	.go .go_bottom li h3{
+		font-size: 0.4rem;
+		color: #000;
+		text-align: center;
+	}
+	.go .go_bottom li p{
+		font-size: 0.36rem;
+		color: #000;
+		text-align: center;
+	}
+	.go .go_bottom li .img_box{
+		width: 100%;
+		height: 1.65rem;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.go .go_bottom li:nth-child(1) .img_box img{
+		display: block;
+		width: 1.70rem;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.go .go_bottom li:nth-child(2) .img_box img{
+		width: 100%;
+		height: 100%;
+	}
+	.go .go_bottom li:nth-child(3) .img_box img{
+		display: block;
+		width: 1.70rem;
+		height: 100%;
+		margin: 0 auto;
+	}
+/* 抢购结束 */
+/* 精选开始 */
+	.free{
+		width: 100%;
+		height: auto;
+		background: #fff;
+		margin-bottom: 0.3rem;
+	}
+	.f_title{
+		width: 100%;
+		height: 1.4rem;
+		box-sizing: border-box;
+		border-bottom: 0.02rem solid #F5F5F5;
+		display: flex;
+		justify-content: space-around;
+	}
+	.f_title span{
+		display: block;
+		width: 5.4rem;
+		height: 1.4rem;
+		box-sizing: border-box;
+		font-size: 0.4rem;
+		color: #000;
+		text-align: center;
+		line-height: 1.4rem;
+	}
+	.f_title span.active{
+		color: #00BE88;
+		border-bottom: 0.04rem solid #00BE88;
+	}
+	.free_bottom{
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+		padding: 0 0.3rem;
+	}
+	.free_center{
+		width: 100%;
+		height: auto;
+		padding: 0.2rem 0.3rem 0;
+		box-sizing: border-box;
+	}
+	.free_center li{
+		width: 100%;
+		height: 3.58rem;
+		box-sizing: border-box;
+		border-bottom: 0.02rem solid #F5F5F5;
+	}
+	.free_center li .img_box{
+		width: 3.63rem;
+		height: 3.13rem;
+		position: relative;
+		float: left;
+	}
+	.free_center li .img_box img{
+		width: 100%;
+		height: 100%;
+	}
+	.free_center li .img_box .type{
+		display: block;
+	    width: 1.43rem;
+	    height: 0.66rem;
+	    border-radius: 0.09rem 0 .43rem 0;
+	    background-color: #314e56;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    font-size: 0.26rem;
+	    color: #fff;
+	    line-height: 0.66rem; 
+	    text-align: center;
+	}
+	.free_center li .img_box .bottom{
+		width: 100%;
+		height: 0.6rem;
+		background: #7B8593;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		text-align: center;
+		font-size: 0.32rem;
+		color: #fff;
+		line-height: 0.6rem;
+	}
+	.free_center li .word_box{
+		width: 100%;
+		height: 3.13rem;
+		padding-left: 3.93rem;
+		box-sizing: border-box;
+	}
+	.free_center li .word_box h2{
+		width: 100%;
+		height: 1.25rem;
+		overflow: hidden;
+		font-size: 0.4rem;
+		color: #000;
+		line-height: 0.6rem;
+		text-overflow: ellipsis; 
+	}
+	.free_center li .word_box .fu{
+		font-size: 0.3rem;
+		color: #00BE88;
+		width: 1.8rem;
+		height: 0.6rem;
+		box-sizing: border-box;
+		border: 0.02rem solid #00BE88;
+		text-align: center;
+		line-height: 0.6rem;
+		border-radius: 0.05rem;
+		margin: 0.1rem 0;
+	}
+	.free_center li .word_box .ban{
+		font-size: 0.4rem;
+		color: #999;
+		margin-bottom: 0.1rem;
+	}
+	.free_center li .word_box p{
+		font-size: 0.46rem;
+		color: #FF6666;
+	}
+	.free_center li .word_box p span{
+		font-size: 0.32rem;
+	}
+/* 精选开始 */
+/* 猜你喜欢 */
+	.like_box{
+		width: 100%;
+		height: auto;
+	}
+	.like_box .title{
+		width: 100%;
+		height: 1.8rem;
+		text-align: center;
+		line-height: 1.8rem;
+		font-size: 0.6rem;
+		color: #000;
+	}
+	.like_box .like{
+		width: 100%;
+		height: 9.95rem;
+		box-sizing: border-box;
+		padding:  0 0.3rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.like_box .like li{
+		width: 5rem;
+		height: 4.80rem;
+		background: #fff;
+	}
+	.like_box .like li .top_img{
+		width: 100%;
+		height: 2.75rem;
+		background: pink;
+	}
+	.like_box .like li .top_img img{
+		width: 100%;
+		height: 100%;
+	}
+	.like_box .like li h2{
+		height: 1.2rem;
+		margin-bottom: 0.1rem;
+		font-size: 0.4rem;
+		line-height: 0.6rem;
+		color: #000;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.like_box .like li p{
+		font-size: 0.4rem;
+		color: #FF6866;
+	}
+	.like_box .like li p span{
+		font-size: 0.3rem;
+	}
+	.like_box .like li p small{
+		font-size: 0.3rem;
+		color: #9E9C9E;
+		float: right;
+	}
+/* 猜你喜欢 */
+	.ping{
+		width: 100%;
+		height: 2.08rem;
+		font-size: 0.6rem;
+		font-family: "隶书";
+		color: #ABA9AD;
+		text-align: center;
+		line-height: 2.08rem;
+		margin-bottom: 1.42rem;
+	}
+/* Tab开始 */
+	.tab{
+		width: 100%;
+		height: 1.5rem;
+		background: #fff;
+		border-top: 0.01rem solid #7C7B83;
+		box-sizing: border-box;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 99;
+	}
+	.tab li{
+		width: calc(100% / 4);
+		height: 1.45rem;
+		float: left;
+		text-align: center;
+	}
+	.tab li .iconfont{
+		display: block;
+		width: 100%;
+		height: 0.7rem;
+		margin-top: 0.1rem;
+		font-size: 0.74rem;
+		color: #7C7B83;
+		float: left;
+	}
+	.tab li span{
+		display: block;
+		width: 100%;
+		height: 0.7rem;
+		font-size: 0.36rem;
+		color: #7C7B83;
+		float: right;
+		line-height: 0.7rem;
+	}
+	.tab li.active .iconfont{
+		color: #0EC98E;
+	}
+	.tab li.active span{
+		color: #0EC98E;
+	}
+/* Tab结束 */	

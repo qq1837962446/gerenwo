@@ -1,0 +1,235 @@
+/*
+* @Author: zhang
+* @Date:   2018-02-20 10:20:01
+* @Last Modified by:   zhang
+* @Last Modified time: 2018-02-23 22:38:03
+*/
+@import url("base.css");
+/* 头部开始 */
+	header{
+		width: 100%;
+		height: 1.32rem;
+		background: #fff;
+		padding: 0 0.4rem;
+		box-sizing: border-box;
+		border-bottom: 0.01rem solid #EFEFEF;
+		position: fixed;
+		top: 0;
+		z-index: 999;
+		display: flex;
+		justify-content: space-between;
+	}
+	header .iconfont{
+		display: block;
+		width: 0.45rem;
+		height: 1.32rem;
+		font-size: 0.56rem;
+		color: #30B17C;
+		line-height: 1.32rem;
+	}
+	header .iconfont:last-child{
+		font-size: 0.52rem;
+	}
+	header span{
+		font-size: 0.34rem;
+		color: #000;
+		line-height: 1.32rem;
+	}
+/* 头部结束 */
+/* 搜索开始 */
+	.sou_box{
+		width: 100%;
+		height: 1.38rem;
+		background: #fff;
+		margin-top: 1.32rem;
+	}
+	.sou_box .s_left{
+		width: 2rem;
+		height: 1.38rem;
+		float: left;
+		margin-right: 0.32rem;
+	}
+	.sou_box .s_left span{
+		display: block;
+		font-size: 0.3rem;
+		color: #757575;
+		text-align: center;
+		line-height: 1.38rem;
+		float: left;
+		margin-left: 0.4rem;
+	}
+	.sou_box .s_left .iconfont{
+		font-size: 0.34rem;
+		color: #00BE88;
+		float: left;
+		line-height: 1.5rem;
+		font-weight: bold;
+		margin-left: 0.2rem;
+	}
+	.sou_box input{
+		width: 8.15rem;
+		height: 0.82rem;
+		background: #F2F3F7;
+		border: none;
+		border-radius: 0.5rem;
+		font-size: 0.26rem;
+		color: #CFD0D0;
+		line-height: 0.56rem;
+		padding-left: 0.3rem;
+		box-sizing: border-box;
+		float: left;
+		margin-top: 0.3rem;
+	}
+/* 搜索结束 */
+/* right开始 */
+	.box{
+		width: 100%;
+		height: 12rem;
+		position: relative;
+		background: #F5F8FF;
+	}
+	.box .left{
+		width: 2.17rem;
+		height: 20rem;
+		background: #fff;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.box .left li{
+		width: 2.17rem;
+		height: 1.56rem;
+		background: #fff;
+		box-sizing: border-box;
+		border-bottom: 0.01rem solid #EAEAEC;
+		font-size: 0.36rem;
+		color: #333333;
+		text-align: center;
+		line-height: 1.56rem;
+	}
+	.box .left li.active{
+		background: #F5F8FF;
+		color: #2AC398;
+	}
+	.box .right{
+		width: 100%;
+		height: 11.5rem;
+		background: #F5F8FF;
+		box-sizing: border-box;
+		padding: 0.4rem 0  0.4rem 2.17rem;
+	}
+	.box .right li{
+		width: 3.75rem;
+		height: 2.4rem;
+		background: yellow;
+		float: left;
+		margin-left: 0.4rem;
+		margin-bottom: 0.3rem;
+		position: relative;
+		border-radius: 0.15rem;
+		overflow: hidden;
+	}
+	.box .right li a{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.box .right li a img{
+		width: 100%;
+		height: 100%;
+	}
+	.box .right li a .hide{
+		width: 3.75rem;
+		height: 2.4rem;
+		background: rgba(0, 0, 0, .2);
+		position: absolute;
+		left: 0;
+		top: 0;
+		text-align: center;
+	}
+	.box .right li a .hide span{
+		font-size: 0.4rem;
+		color: #fff;
+	}
+	.box .right li a .hide p{
+		font-size: 0.3rem;
+		color: #fff;
+	}
+/* right结束 */
+/* 推荐开始 */
+	.box .right .tui{
+		width: 100%;
+		height: 0.8rem;
+		box-sizing: border-box;
+		margin-top: 5.5rem;
+	}
+	.box .right .tui .iconfont{
+		line-height: 0.8rem;
+		font-size: 0.45rem;
+		color: #3DC18F;
+		float: left;
+		margin: 0 0.4rem;
+	}
+	.box .right .tui h1{
+		font-size: 0.38rem;
+		color: #000;
+		line-height: 0.8rem;
+	}
+	.box .right .tuijian{
+		width: 100%;
+		height: 4.9rem;
+	}
+	.box .right .tuijian .he{
+		width: 2.37rem;
+		height: 0.9rem;
+		background: #fff;
+		border-radius: 0.1rem;
+		text-align: center;
+		line-height: 0.9rem;
+		color: #000;
+		font-size: 0.38rem;
+	}
+/* 推荐结束 */
+/* Tab开始 */
+	.tab{
+		width: 100%;
+		height: 1.5rem;
+		background: #fff;
+		border-top: 0.01rem solid #7C7B83;
+		box-sizing: border-box;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 99;
+	}
+	.tab li{
+		width: calc(100% / 4);
+		height: 1.45rem;
+		float: left;
+		text-align: center;
+	}
+	.tab li .iconfont{
+		display: block;
+		width: 100%;
+		height: 0.7rem;
+		margin-top: 0.1rem;
+		font-size: 0.74rem;
+		color: #7C7B83;
+		float: left;
+	}
+	.tab li span{
+		display: block;
+		width: 100%;
+		height: 0.7rem;
+		font-size: 0.36rem;
+		color: #7C7B83;
+		float: right;
+		line-height: 0.7rem;
+	}
+	.tab li.active .iconfont{
+		color: #0EC98E;
+	}
+	.tab li.active span{
+		color: #0EC98E;
+	}
+/* Tab结束 */
